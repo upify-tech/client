@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67c95c4b.chunk.css",
+    "main.js": "/static/js/main.16dd539c.chunk.js",
+    "main.js.map": "/static/js/main.16dd539c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d6b75024.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d6b75024.js.map",
+    "static/css/2.78afd4a5.chunk.css": "/static/css/2.78afd4a5.chunk.css",
+    "static/js/2.fa4ace0e.chunk.js": "/static/js/2.fa4ace0e.chunk.js",
+    "static/js/2.fa4ace0e.chunk.js.map": "/static/js/2.fa4ace0e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.78afd4a5.chunk.css.map": "/static/css/2.78afd4a5.chunk.css.map",
+    "static/css/main.67c95c4b.chunk.css.map": "/static/css/main.67c95c4b.chunk.css.map",
+    "static/js/2.fa4ace0e.chunk.js.LICENSE.txt": "/static/js/2.fa4ace0e.chunk.js.LICENSE.txt",
+    "static/media/internship.1797c78a.jpg": "/static/media/internship.1797c78a.jpg",
+    "static/media/upify-logo-new.93e42b41.png": "/static/media/upify-logo-new.93e42b41.png",
+    "static/media/webinar.8ab8e5fb.jpg": "/static/media/webinar.8ab8e5fb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6b75024.js",
+    "static/css/2.78afd4a5.chunk.css",
+    "static/js/2.fa4ace0e.chunk.js",
+    "static/css/main.67c95c4b.chunk.css",
+    "static/js/main.16dd539c.chunk.js"
+  ]
+}
