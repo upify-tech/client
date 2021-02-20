@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.myBrand {
+    margin-left:50px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.myItems {
+    margin-right:50px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+
+
+.mysearch {
+    width:70%;
+}

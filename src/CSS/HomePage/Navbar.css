@@ -1,0 +1,15 @@
+.navbar {
+    color:white;
+    
+}
+.navbar-brand {
+    margin-left:30px;
+    font-size:30px;
+}
+.nav-item:last-child {
+    padding-right:8.5em;
+    }
+.nav-item {
+    padding:0.9em;
+    font-size:18px;
+    }
