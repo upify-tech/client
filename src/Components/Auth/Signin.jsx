@@ -35,7 +35,7 @@ const Signin = () => {
         event.preventDefault();
         setSubmit(login);
      
-        axios.get(`/register/${login.username}`).then((response)=>{
+        axios.get(`https://upify-tech.herokuapp.com/register/${login.username}`).then((response)=>{
           const userData = response.data;
           console.log(userData);
           if(userData){
