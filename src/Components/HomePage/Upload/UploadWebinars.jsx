@@ -62,7 +62,7 @@ const UploadWebinars = () => {
         event.preventDefault();
         setSubmit(register)
         axios({
-          url:"/uploadwebinar",
+          url:"https://upify-tech.herokuapp.com/uploadwebinar",
           method:'POST',
           data:register
         }).then(()=>{
