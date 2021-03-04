@@ -32,10 +32,10 @@ const EditProfile=()=>{
         event.preventDefault();
         setSubmit(register)
 
-        axios.get(`/register/${token}`).then((response)=>{
+        axios.get(`https://upify-tech.herokuapp.com/register/${token}`).then((response)=>{
             const updateData = response.data;
             localStorage.setItem("token",register.username);
-            axios.put(`/register/${updateData._id}`,{
+            axios.put(`https://upify-tech.herokuapp.com/register/${updateData._id}`,{
                 username : register.username || updateData.username,
                  email : register.email || updateData.email,
              }).then((response)=>{
