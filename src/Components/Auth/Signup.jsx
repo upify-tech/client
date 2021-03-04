@@ -37,7 +37,7 @@ const Signup = () => {
 
   const postRegister = () => {
     axios({
-      url:"/register",
+      url:"https://upify-tech.herokuapp.com/register",
       method:'POST',
       data:register
     }).then(()=>{
