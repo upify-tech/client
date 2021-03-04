@@ -10,7 +10,7 @@ const LandingCoursesCard = () => {
 
     const getData = () => {
         console.log("getting data");
-        axios.get('/uploadcourses').then((response) => {
+        axios.get('https://upify-tech.herokuapp.com/uploadcourses').then((response) => {
             const gettingdata = response.data;
             console.log(gettingdata);
             setData(() => {
