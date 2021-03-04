@@ -16,7 +16,7 @@ const Courses = () => {
 
     const getData = () => {
         console.log("getting data");
-        axios.get('/uploadcourses').then((response) => {
+        axios.get('https://github.com/upify-tech/uploadcourses').then((response) => {
             const gettingdata = response.data;
             console.log(gettingdata);
             setData(() => {
@@ -37,7 +37,7 @@ const Courses = () => {
 
     const getProfileData = () => {
         console.log("getting data");
-        axios.get(`/register/${token}`).then((response)=>{
+        axios.get(`https://github.com/upify-tech/register/${token}`).then((response)=>{
           const gettingdata = response.data;
           console.log(gettingdata);
           setProfileData(()=>{
