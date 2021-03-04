@@ -9,14 +9,11 @@ const LandingInternshipsCard = () => {
     const [data, setData] = useState([]);
 
     const getData = () => {
-        console.log("getting data");
         axios.get('/uploadinternship').then((response) => {
             const gettingdata = response.data;
-            console.log(gettingdata);
             setData(() => {
                 return (gettingdata)
             })
-            console.log(data);
         })
     }
 
