@@ -9,7 +9,7 @@ const LandingInternshipsCard = () => {
     const [data, setData] = useState([]);
 
     const getData = () => {
-        axios.get('/uploadinternship').then((response) => {
+        axios.get('https://upify-tech.herokuapp.com/uploadinternship').then((response) => {
             const gettingdata = response.data;
             setData(() => {
                 return (gettingdata)
