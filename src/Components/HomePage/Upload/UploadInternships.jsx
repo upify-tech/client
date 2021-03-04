@@ -65,7 +65,7 @@ const UploadInternships = () => {
         event.preventDefault();
         setSubmit(register)
         axios({
-          url:"/uploadinternship",
+          url:"https://upify-tech.herokuapp.com/uploadinternship",
           method:'POST',
           data:register
         }).then(()=>{
