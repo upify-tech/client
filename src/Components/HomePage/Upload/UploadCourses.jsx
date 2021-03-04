@@ -61,7 +61,7 @@ const UploadCourses = () => {
         event.preventDefault();
         setSubmit(register)
         axios({
-          url:"/uploadcourses",
+          url:"https://upify-tech.herokuapp.com/uploadcourses",
           method:'POST',
           data:register
         }).then(()=>{
