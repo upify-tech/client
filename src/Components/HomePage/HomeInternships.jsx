@@ -14,7 +14,7 @@ const Internships = () => {
 
   const getData = () => {
     console.log("getting data");
-    axios.get('/uploadinternship').then((response) => {
+    axios.get('https://upify-tech.herokuapp.com/uploadinternship').then((response) => {
       const gettingdata = response.data;
       console.log(gettingdata);
       setData(() => {
@@ -35,7 +35,7 @@ const Internships = () => {
 
   const getProfileData = () => {
     console.log("getting data");
-    axios.get(`/register/${token}`).then((response) => {
+    axios.get(`https://upify-tech.herokuapp.com/register/${token}`).then((response) => {
       const gettingdata = response.data;
       console.log(gettingdata);
       setProfileData(() => {
