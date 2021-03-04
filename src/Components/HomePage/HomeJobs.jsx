@@ -15,7 +15,7 @@ const Jobs = () => {
 
     const getData = () => {
         console.log("getting data");
-        axios.get('/uploadjob').then((response) => {
+        axios.get('https://upify-tech.herokuapp.com/uploadjob').then((response) => {
             const gettingdata = response.data;
             console.log(gettingdata);
             setData(() => {
@@ -36,7 +36,7 @@ const Jobs = () => {
 
     const getProfileData = () => {
         console.log("getting data");
-        axios.get(`/register/${token}`).then((response)=>{
+        axios.get(`https://upify-tech.herokuapp.com/register/${token}`).then((response)=>{
           const gettingdata = response.data;
           console.log(gettingdata);
           setProfileData(()=>{
