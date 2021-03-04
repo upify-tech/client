@@ -18,7 +18,7 @@ const Home = () => {
 
     const getProfileData = () => {
         console.log("getting data");
-        axios.get(`https://github.com/upify-tech/register/${token}`).then((response)=>{
+        axios.get(`https://upify-tech.herokuapp.com/register/${token}`).then((response)=>{
           const gettingdata = response.data;
           console.log(gettingdata);
           setProfileData(()=>{
