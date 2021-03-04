@@ -35,7 +35,8 @@ const App = () => {
     return (
         <>
             <Switch>
-                <Route exact path="/" component={LandingContent} />
+                  
+                <Route exact path="/landing" component={LandingContent} />
                 <Route exact path="/#services-section" component={Services} />
                 <Route exact path="/#about-section" component={About} />
                 <Route exact path="/#contact-section" component={Contact} />
