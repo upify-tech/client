@@ -39,7 +39,7 @@ const App = () => {
                 <Route exact path="/#services-section" component={Services} />
                 <Route exact path="/#about-section" component={About} />
                 <Route exact path="/#contact-section" component={Contact} />
-                <Route exact path="https://upifytech.netlify.app/signup" component={Auth} />
+                <Route exact path="/signup" component={Auth} />
                 <Route exact path='/home' component={Home}></Route>
                 <Route exact path='/courses' component={Courses}></Route>
                 <Route exact path='/internships' component={Internships}></Route>
