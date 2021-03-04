@@ -63,7 +63,7 @@ const UploadJobs = () => {
     event.preventDefault();
     setSubmit(register)
     axios({
-      url: "/uploadjob",
+      url: "https://upify-tech.herokuapp.com/uploadjob",
       method: 'POST',
       data: register
     }).then(() => {
