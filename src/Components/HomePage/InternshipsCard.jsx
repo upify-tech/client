@@ -56,7 +56,7 @@ const InternshipsCard = (props) => {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary" className="card-btn">
+            <Button size="small" color="primary" className="card-btn" href={props.link} target="/i">
               See details
             </Button>
             {/* <a href="/"><BookmarkBorderIcon color="primary" fontSize="large" /></a> */}
