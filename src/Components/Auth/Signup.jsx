@@ -51,13 +51,6 @@ const Signup = () => {
    if(register.password === register.cpassword){
      setSubmit(register);
      postRegister();
-     setRegister({
-       username:"",
-       email:"",
-       password:"",
-       cpassword:"",
-       interests:[]
-   })
    } else {
      alert('password not matching');
    }
