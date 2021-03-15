@@ -36,8 +36,8 @@ const HomeCoursesCard = (props) => {
                         } else if (val.title.toLowerCase().includes(props.Term.toLowerCase())) {
                             return val;
                         }
-                          else{
-                             console.log(val);
+                                   else{
+                            return console.log(val);
                         }
                     }).slice(0, 3).map((val, index) => {
                         return (
