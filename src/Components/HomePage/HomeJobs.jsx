@@ -86,8 +86,8 @@ const Jobs = () => {
                         }else if(val.title.toLowerCase().includes(searchTerm.toLowerCase())){
                             return val
                         }
-                        else {
-                            return val;
+                        else{
+                           console.log(val);
                         }
                     }).map((val, index) => {
                         return (
