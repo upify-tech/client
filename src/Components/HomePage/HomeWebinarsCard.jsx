@@ -34,8 +34,8 @@ const HomeWebinarsCard = (props) => {
                     } else if (val.title.toLowerCase().includes(props.Term.toLowerCase())) {
                         return val;
                     }
-                    else {
-                        return val;
+                       else{
+                        console.log(val);
                     }
                 }).slice(0, 3).map((val, index) => {
                     return (
