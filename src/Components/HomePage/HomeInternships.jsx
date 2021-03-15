@@ -104,7 +104,7 @@ const Internships = () => {
                   date={val.date}
                   online_offline={val.online_offline}
                   location={val.location}
-                  link={val.linl}
+                  link={val.linlk}
                 />
               </>
             );
