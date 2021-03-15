@@ -88,7 +88,7 @@ const Internships = () => {
               return val
             }
               else{
-              console.log(val);
+              return console.log(val);
             }
           }).map((val, index) => {
             return (
