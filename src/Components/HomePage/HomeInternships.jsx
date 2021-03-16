@@ -94,17 +94,18 @@ const Internships = () => {
             return (
               <>
                 <InternshipsCard
-                  title={val.title}
-                  speaker_name={val.imgsrc}
-                  about_speaker={val.about_speaker}
-                  domain={val.domain}
-                  description={val.description}
-                  audience={val.audience}
-                  time={val.time}
-                  date={val.date}
-                  online_offline={val.online_offline}
-                  location={val.location}
-                  link={val.link}
+                  title= {val.title}
+                  description= {val.description}
+                  comp_name= {val.comp_name}
+                  domain=  {val.domain}
+                  req_skills= {val.req_skills}
+                  add_skills= {val.add_skills}
+                  duration= {val.duration}
+                  location= {val.location}
+                  education= {val.education}
+                  experience= {val.experience}
+                  ctc= {val.ctc}
+                  link= {val.link}
                 />
               </>
             );
