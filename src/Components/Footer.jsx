@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="base-line">
-                        © 2021, All rights reserved.
+                        © 2021, All rights reserved. (This website is under development)
                     </div>
                 </div>
             </footer>
